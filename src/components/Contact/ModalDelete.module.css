@@ -1,0 +1,43 @@
+.title {
+  color: #404565;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.text {
+  color: #404565;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.wrap {
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.btn {
+  display: block;
+  width: 80px;
+  height: 25px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  border: 1px solid #616691;
+  background-color: transparent;
+  border-radius: 10px;
+  color: #404565;
+}
+
+.btn:hover {
+  background-color: #8590c0;
+  color: #e3d0e0;
+}
